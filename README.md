@@ -19,3 +19,34 @@ To uninstall Rust and rustup, run the following uninstall script from your shell
 ```bash
 rustup self uninstall
 ```
+
+#### Cargo
+
+```bash
+cargo --version
+```
+
+Creating a new Cargo project.
+
+```bash
+cargo new folder_name
+```
+
+Building a Cargo project.
+
+```bash
+cargo build
+```
+
+Running a Cargo project.
+
+```bash
+cargo run
+```
+
+#### Cargo Release
+
+```bash
+cargo build --release
+```
+This command will create an executable in target/release instead of target/debug. The optimizations make your Rust code run faster, but turning them on lengthens the time it takes for your program to compile.

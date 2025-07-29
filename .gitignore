@@ -2,3 +2,6 @@
 #EXTENTIONS
 *.exe 
 *.pdb
+
+#FOLDERS
+**/target
